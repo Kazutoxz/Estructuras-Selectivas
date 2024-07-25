@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    float calificacion;
+
+printf("Ingresa tu calificación (0-10): ");
+scanf("%f", &calificacion);
+
+
+    if (calificacion >= 9.0) {
+        printf("Tu calificación es A.\n");
+    } else if (calificacion >= 8.0) {
+        printf("Tu calificación es B.\n");
+    } else if (calificacion >= 7.0) {
+        printf("Tu calificación es C.\n");
+    } else if (calificacion >= 6.0) {
+        printf("Tu calificación es D.\n");
+    } else {
+        printf("Tu calificación es F.\n");
+    }
+
+    return 0;
+}
